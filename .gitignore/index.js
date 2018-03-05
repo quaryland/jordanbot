@@ -15,12 +15,8 @@ return channel.send('Bienvenue sur le server "Jordan community"' + member.displa
 }).catch(console.error)
 })
 
-bot.on('message', function (message) {
-    if (Test.match(message)) {
-      return  Test.action(message)
-    }
-    if (message.content === '!salut') {
-        message.channel.send('Salut' + memberdisplayName)
-    }
+bot.on('message', message => {
+    if (message.content === 'ping') {
+    message.channel.sendMessage('pong');
+  }
 })
-
