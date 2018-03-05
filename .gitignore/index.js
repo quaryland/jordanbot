@@ -24,21 +24,13 @@ bot.on('message', message => {
 
     }
     
-        // help
-    if (msg === prefix + 'help') { // This checks if msg (the message but in all caps), is the same as the prefix + the command in all caps.
+   // test
+    if (msg === prefix + 'TEST') { // This checks if msg (the message but in all caps), is the same as the prefix + the command in all caps.
 
         // Now, let's send a response.
-        message.channel.send('COMMANDE
+        message.channel.send('ceci est un test pour evitez que Jordan rage'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
 
-Admin
-!purge
-
-
-fun
-!ping'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
-
-    }
-    
+    }  
     
     
     
