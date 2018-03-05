@@ -2,6 +2,12 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
+bot.on("ready", function() {
+    bot.user.setGame("Besoin d'aide ? !help");
+
+
+
+
 // Global Settings
 const prefix = '!'; // This is the prefix, you can change it to whatever you want.
 
