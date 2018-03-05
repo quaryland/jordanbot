@@ -23,6 +23,33 @@ bot.on('message', message => {
         message.channel.send('Ping!'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
 
     }
+    
+        // help
+    if (msg === prefix + 'help') { // This checks if msg (the message but in all caps), is the same as the prefix + the command in all caps.
+
+        // Now, let's send a response.
+        message.channel.send('COMMANDE
+
+Admin
+!purge
+
+
+fun
+!ping'); // This 'sends' the message to the channel the message was in. You can change what is in the message to whatever you want.
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     // Purge
