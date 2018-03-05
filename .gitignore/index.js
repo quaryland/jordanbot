@@ -20,3 +20,9 @@ bot.on('message', message => {
     message.channel.sendMessage('pong');
   }
 })
+
+bot.on('message', message => {
+    if (message.content === 'je taime') {
+    message.channel.sendMessage('je taime aussi <3');
+  }
+})
