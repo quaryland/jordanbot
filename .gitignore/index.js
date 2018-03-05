@@ -14,3 +14,17 @@ member.createDM().then(function (channel) {
 return channel.send('Bienvenue sur le server "Jordan community"' + member.displayName)
 }).catch(console.error)
 })
+
+const prefix = '!';
+
+let msg = message.content.toUpperCase(); 
+    let sender = message.author; 
+    let cont = message.content.slice(prefix.length).split(" "); 
+    let args = cont.slice(1);
+
+
+
+if (msg === prefix + 'PING') { 
+    message.channel.send('Ping!');
+
+}
